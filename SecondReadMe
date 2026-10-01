@@ -1,0 +1,29 @@
+# Java & PostgreSQL Relational Database Application
+
+## Project Overview
+   This project began as Standalone Java Command -line interface (my-modern-java-playlist)
+   built using ** JDK21** and managed via **Maven** menu system, I integrated a robust **PostgreSQL**
+   relational database backend.
+
+   By bridging these two ecosystems together via a secure JDBC pipeline,this application has evolved into a
+   fully operational ** Relational Database Management Tool**.
+   It provides a comprehensive, interactive dashboard to manage and persist data entries in real-time.
+
+   ## Key Technical Milestones & Features
+   * ** Full CRUD Integration: ** Features dedicated Methods for Creating data streams.Reading/Filtering
+   active records, Updating attributes and executing precise Deletions by target ID numbers.
+
+   * ** Flexible Pattern Searching** Leverages the PostgreSQL ILIKE operator and parameter wildcards(%)
+   to execute case-insensitive query filters across multiple text Columns simultaneously.
+
+  * ** Data Integrity & Security ** Built entirely using PreparedStatement parameterized queries to ensure
+      absolute protection against SQL Injection vulnerabilities .
+
+  * **  Defensive Resource Management **  Implements nested try-with-resources blocks to ensure automatic
+        database connection closures, preventing server side memory leaks.
+
+  ## Tech Stack
+    * ** Language : ** Java (JDK 21)
+    * ** Build Tool: ** Maven
+    * ** Database: ** PostgreSQL 18
+    * ** Driver: ** PostgreSQL JDBC Driver (42.x)
